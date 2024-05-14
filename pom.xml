@@ -39,9 +39,9 @@
         <javax-annotation.version>1.3.2</javax-annotation.version>
         <jakarta.xml.bind-api.version>2.3.2</jakarta.xml.bind-api.version>
         <jaxb-runtime.version>2.3.2</jaxb-runtime.version>
-        <spring-boot.version>2.7.10</spring-boot.version>
+        <spring-boot.version>2.7.12</spring-boot.version>
         <spring-data.version>2.7.10</spring-data.version>
-        <spring.version>5.3.26</spring.version>
+        <spring.version>6.0.19</spring.version>
         <spring-redis.version>5.5.17</spring-redis.version>
         <spring-security.version>5.7.7</spring-security.version>
         <spring-data-redis.version>2.7.10</spring-data-redis.version>
@@ -49,12 +49,12 @@
         <jjwt.version>0.7.0</jjwt.version>
         <slf4j.version>1.7.32</slf4j.version>
         <log4j.version>2.17.1</log4j.version>
-        <logback.version>1.2.10</logback.version>
+        <logback.version>1.2.13</logback.version>
         <rat.version>0.10</rat.version>
         <cassandra.version>4.15.0</cassandra.version>
         <metrics.version>4.0.5</metrics.version>
         <cassandra-all.version>3.11.14</cassandra-all.version>
-        <guava.version>31.1-jre</guava.version>
+        <guava.version>32.0.0-jre</guava.version>
         <caffeine.version>2.6.1</caffeine.version>
         <commons-lang3.version>3.12.0</commons-lang3.version>
         <commons-codec.version>1.15</commons-codec.version>
@@ -69,37 +69,37 @@
         <fasterxml-classmate.version>1.3.4</fasterxml-classmate.version>
         <auth0-jwt.version>4.2.1</auth0-jwt.version>
         <json-schema-validator.version>2.2.6</json-schema-validator.version>
-        <californium.version>3.0.0</californium.version>
+        <californium.version>2.7.3</californium.version>
         <leshan.version>2.0.0-M5</leshan.version>
         <gson.version>2.9.0</gson.version>
         <freemarker.version>2.3.30</freemarker.version>
         <mail.version>1.6.2</mail.version>
         <curator.version>5.5.0</curator.version>
-        <zookeeper.version>3.8.1</zookeeper.version>
+        <zookeeper.version>3.8.4</zookeeper.version>
         <protobuf.version>3.21.9</protobuf.version>
-        <grpc.version>1.42.1</grpc.version>
+        <grpc.version>1.53.0</grpc.version>
         <tbel.version>1.1.5</tbel.version>
         <lombok.version>1.18.18</lombok.version>
         <paho.client.version>1.2.4</paho.client.version>
         <paho.mqttv5.client.version>1.2.5</paho.mqttv5.client.version>
-        <netty.version>4.1.91.Final</netty.version>
+        <netty.version>4.1.108.Final</netty.version>
         <netty-tcnative.version>2.0.51.Final</netty-tcnative.version>
         <os-maven-plugin.version>1.7.0</os-maven-plugin.version>
-        <rabbitmq.version>4.8.0</rabbitmq.version>
+        <rabbitmq.version>5.18.0</rabbitmq.version>
         <surefire.version>3.0.0-M9</surefire.version>
         <jar-plugin.version>3.0.2</jar-plugin.version>
         <springfox-swagger.version>3.0.4</springfox-swagger.version>
         <swagger-annotations.version>1.6.3</swagger-annotations.version>
         <spatial4j.version>0.7</spatial4j.version>
         <jts.version>1.18.2</jts.version>
-        <bouncycastle.version>1.69</bouncycastle.version>
+        <bouncycastle.version>1.70</bouncycastle.version>
         <winsw.version>2.0.1</winsw.version>
-        <postgresql.driver.version>42.5.0</postgresql.driver.version>
+        <postgresql.driver.version>42.5.5</postgresql.driver.version>
         <sonar.exclusions>org/thingsboard/server/gen/**/*,
             org/thingsboard/server/extensions/core/plugin/telemetry/gen/**/*
         </sonar.exclusions>
         <elasticsearch.version>5.0.2</elasticsearch.version>
-        <delight-nashorn-sandbox.version>0.2.1</delight-nashorn-sandbox.version>
+        <delight-nashorn-sandbox.version>0.3.1</delight-nashorn-sandbox.version>
         <!-- IMPORTANT: If you change the version of the kafka client, make sure to synchronize our overwritten implementation of the
         org.apache.kafka.common.network.NetworkReceive class in the application module. It addresses the issue https://issues.apache.org/jira/browse/KAFKA-4090.
         Here is the source to track https://github.com/apache/kafka/tree/trunk/clients/src/main/java/org/apache/kafka/common/network -->
@@ -124,26 +124,26 @@
         <hypersistence-utils.version>3.5.2</hypersistence-utils.version>
         <javax.el.version>3.0.0</javax.el.version>
         <javax.validation-api.version>2.0.1.Final</javax.validation-api.version>
-        <antisamy.version>1.7.2</antisamy.version>
+        <antisamy.version>1.7.5</antisamy.version>
         <snmp4j.version>2.8.5</snmp4j.version>
         <!--         TEST SCOPE         -->
         <awaitility.version>4.1.0</awaitility.version>
         <dbunit.version>2.7.2</dbunit.version>
         <java-websocket.version>1.5.2</java-websocket.version>
         <jupiter.version>5.8.2</jupiter.version> <!-- keep the same version as spring-boot-starter-test depend on jupiter-->
-        <json-path.version>2.6.0</json-path.version>
+        <json-path.version>2.9.0</json-path.version>
         <mock-server.version>5.13.1</mock-server.version>
         <spring-test-dbunit.version>1.3.0</spring-test-dbunit.version> <!-- 2016 -->
         <takari-cpsuite.version>1.2.7</takari-cpsuite.version> <!-- 2015 -->
         <!--      BLACKBOX TEST SCOPE     -->
-        <testng.version>7.6.1</testng.version>
+        <testng.version>7.7.0</testng.version>
         <assertj.version>3.23.1</assertj.version>
         <rest-assured.version>5.2.0</rest-assured.version>
         <hamcrest.version>1.3</hamcrest.version>
         <testcontainers.version>1.17.3</testcontainers.version>
         <zeroturnaround.version>1.12</zeroturnaround.version>
         <opensmpp.version>3.0.0</opensmpp.version>
-        <jgit.version>6.1.0.202203080745-r</jgit.version>
+        <jgit.version>6.6.1.202309021850-r</jgit.version>
         <exp4j.version>0.4.8</exp4j.version>
         <aerogear-otp.version>1.0.0</aerogear-otp.version>
         <selenium.version>4.6.0</selenium.version>
